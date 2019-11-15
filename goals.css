@@ -48,7 +48,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     color: #CCC;
     font-size: 28px;
-    margin: 0 0 28px;
+    /* margin: 0 0 28px; */
     /* font-weight: bold;*/
 }
 
@@ -95,6 +95,6 @@ img {
     margin-bottom: 35px;
 }
 
-a.nav-item h4:hover {
-    color: white;
+a.nav-item.nav-link {
+    color: #666666;
 }

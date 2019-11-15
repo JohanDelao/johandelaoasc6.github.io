@@ -7,6 +7,7 @@
     <title>English Website</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="goals.css">
+    <script src="project.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
@@ -21,9 +22,9 @@
     <nav class="navbar navbar-expand-lg">
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav" style="text-align: center ; padding: 0px">
-            <a class="nav-item nav-link" style="color: #666666" href="index.html">HOME</a>
-            <a class="nav-item nav-link" style="color: #666666" href="goals.html">GOALS</a>
-            <a class="nav-item nav-link" style="color: #666666" href="requirements.html">REQUIREMENTS</a>
+            <a class="nav-item nav-link active" href="index.html">HOME</a>
+            <a class="nav-item nav-link" href="goals.html">GOALS</a>
+            <a class="nav-item nav-link" href="requirements.html">REQUIREMENTS</a>
             </div>
         </div>
     </nav>
@@ -33,11 +34,9 @@
                     <img src="SWE2.jpg" alt="..." style="width: 854px; height: 480px">
                 </div>
         <div id="title">
-            <h2>Goals</h2>
+            <h2 onclick="onClick()">Goals</h2>
         </div>
-        <div id="description">
-            <h3>All of my goals are important to each other. They are steps to the next goal in line. An example of this is my short term to mid-range goal, graduating highschool with a high GPA and a good SAT score will lead to me going to a college with a good computer science program. These will be the foundations to become a successful software engineer</h3>
-        </div>
+
         <div id="line">
         <hr>
         </div>
